@@ -1,0 +1,33 @@
+@media all and (max-width: 800px) {
+    .playerPanel {
+        max-width: 7rem;
+    }
+    .totalScore {
+        font-size: 0.7rem;
+    }
+    .currentScore {
+        width: 7rem;
+        height: 7rem;
+    }
+    .currentScore p {
+        font-size: 1rem;
+    }
+}
+
+@media all and (min-width: 375px) and (max-width: 500px) {
+    .playground {
+        width: 90%;
+        height: 90%;
+    }
+    .playerPanel {
+        height: 60%;
+    }
+    .middleText {
+        bottom: 1%;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 0.4rem;
+        width: 150px;
+    }
+}
