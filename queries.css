@@ -14,7 +14,7 @@
     }
 }
 
-@media all and (min-width: 375px) and (max-width: 500px) {
+@media all and (max-width: 500px) {
     .playground {
         width: 90%;
         height: 90%;
