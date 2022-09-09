@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* All Page */
+.allPage {
+    background: linear-gradient(#471e4b,#471f1e);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Playground */
+.playground {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background: #d1ccb4;
+}
+
+/* Player Panel */
+.playerPanel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Player Panel0 */
+.playerPanel0 {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+/* Player Panel1 */
+.playerPanel1 {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+/* Total Score */
+.totalScore {
+    font-size: 30px;
+    color: #471f1e;
+    font-weight: bold;
+}
+
+.totalScore p:nth-of-type(2) {
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Current Score */
+.currentScore {
+    width: 150px;
+    height: 150px;
+    background: #b34e4b;
+}
+
+.currentScore p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.currentScore p:last-child {
+    font-size: 40px;
+}
+
+/* Middle buttons */
+.middleText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 4%;
+    right: 0;
+    left: 0;
+}
+
+.btn {
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    background: #b34e4b;
+    color: white;
+    border: 1px solid #b34e4b;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn:hover {
+    border: 1px solid #d2263d;
+    background-color: #d2263d;
+    cursor: pointer;
+}
+
+/* Dice  */
+.dice {
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Active Player */
+.active {
+    color: white;
+    border: 2px solid  #AD4F34;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #AD4F34;;
+}
